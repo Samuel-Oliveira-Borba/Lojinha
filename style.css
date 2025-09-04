@@ -22,7 +22,7 @@ body {
 
 /* Cabeçalho */
 h1 {
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
 }
 
@@ -42,8 +42,6 @@ div {
 header {
     display: flex;
 
-    background-color: rgb(16, 2, 51);
-
     align-items: center;
 
     justify-content: space-around;
@@ -61,7 +59,7 @@ header {
 header ul {
     display: flex;
 
-    width: 29rem;
+    width: 40rem;
 
     justify-content: space-between;
     align-items: center;
@@ -69,7 +67,7 @@ header ul {
 
 header ul li {
     display: flex;
-    background-color: rgb(10, 0, 36);
+    background-color: rgb(6, 0, 21);
 
     list-style: none;
 
@@ -79,7 +77,7 @@ header ul li {
     height: 2.5rem;
     width: 7rem;
 
-    border: 0.15rem solid rgb(23, 0, 81);
+    border: 0.15rem solid rgb(13, 0, 47);
 }
 
 header ul li a {
@@ -94,4 +92,46 @@ header ul li:hover {
 
 footer {
   color: rgb(46, 0, 161);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+#sec1 {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+}
+
+li {
+  border-radius: 0.25rem;
+  margin-bottom: 0.2rem;
+  background-color: #f5f5f5;
+  color: black;
+  list-style: none;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#sec1 div a {
+  display: inline-block;
+  background-color: rgb(6, 0, 21);
+
+  height: 5.75rem;
+  width: 8rem;
+
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+
+  border: 0.15rem solid rgb(13, 0, 47);
 }
